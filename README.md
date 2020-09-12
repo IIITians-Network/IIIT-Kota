@@ -1,1 +1,1 @@
-This is the second theme which we are developing.
+This is the repo of IIIT KOTA page.

@@ -96,6 +96,10 @@
             z-index: 9999;
             background: url("./img/loader/loader.gif") center no-repeat #fff;
         }
+	    /* black font in all iiit dropdown */
+        .all-iiit a {
+            color: #121212;
+        }
 	  /*  @media screen and (max-width: 760px){
             .se-pre-con {
                 background-size: contain;
@@ -116,9 +120,43 @@
 
             <nav class="nav-menu d-none d-lg-block">
                 <ul>
-                    <li ><a href="https://iiitiansnetwork.com">Home</a></li>
+                    <li class = "active" ><a href="#">Home</a></li>
+		    <li><a href="https://jeecounselling.iiitiansnetwork.com/">Jee Counselling</a></li>
+                    <li><a href="https://placement.iiitiansnetwork.com/">IIIT Placements</a></li>
+			<li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        All IIIT
+                        </a>
+                        <div class="dropdown-menu all-iiit" aria-labelledby="navbarDropdown" style="max-height: 400px; overflow-y: scroll;">
+                            <a class="dropdown-item" target="_blank"  href="https://agartala.iiitiansnetwork.com">IIIT Agartala</a>
+                            <a class="dropdown-item" target="_blank"  href="https://allahabad.iiitiansnetwork.com">IIIT Allahabad</a>
+                            <a class="dropdown-item" target="_blank"  href="https://bhagalpur.iiitiansnetwork.com">IIIT Bhagalpur</a>
+                            <a class="dropdown-item" target="_blank"  href="https://bhopal.iiitiansnetwork.com">IIIT Bhopal</a>
+                        <!--<a class="dropdown-item" target="_blank"  href="https://dharwad.iiitiansnetwork.com">IIIT Dharward</a> 
+                            <a class="dropdown-item" target="_blank"  href="https://guwahati.iiitiansnetwork.com">IIIT Guwahati</a> 
+                        --> <a class="dropdown-item" target="_blank"  href="https://gwalior.iiitiansnetwork.com">IIITM Gwalior</a>
+                            <a class="dropdown-item" target="_blank"  href="https://jabalpur.iiitiansnetwork.com">IIITDM Jabalpur</a>
+                            <a class="dropdown-item" target="_blank"  href="https://kalyani.iiitiansnetwork.com">IIIT Kalyani</a>
+                            <a class="dropdown-item" target="_blank"  href="https://kancheepuram.iiitiansnetwork.com">IIITDM Kancheepuram</a>
+                            <a class="dropdown-item" target="_blank"  href="https://kota.iiitiansnetwork.com">IIIT Kota</a>
+                            <a class="dropdown-item" target="_blank"  href="https://kurnool.iiitiansnetwork.com">IIITDM Kurnool</a>
+                            <a class="dropdown-item" target="_blank"  href="https://lucknow.iiitiansnetwork.com">IIIT Lucknow</a>
+                            <a class="dropdown-item" target="_blank"  href="https://manipur.iiitiansnetwork.com">IIIT Manipur</a>
+                            <a class="dropdown-item" target="_blank"  href="https://nagpur.iiitiansnetwork.com">IIIT Nagpur</a>
+                            <a class="dropdown-item" target="_blank"  href="https://pune.iiitiansnetwork.com">IIIT Pune</a>
+                            <a class="dropdown-item" target="_blank"  href="https://raichur.iiitiansnetwork.com">IIIT Raichur</a>
+                            <a class="dropdown-item" target="_blank"  href="https://ranchi.iiitiansnetwork.com">IIIT Ranchi</a>
+                            <a class="dropdown-item" target="_blank"  href="https://sonepat.iiitiansnetwork.com">IIIT Sonepat</a>
+                        <!--<a class="dropdown-item" target="_blank"  href="https://sricity.iiitiansnetwork.com">IIIT Sri City</a> 
+                            <a class="dropdown-item" target="_blank"  href="https://surat.iiitiansnetwork.com">IIIT Surat</a>
+                        --> <a class="dropdown-item" target="_blank"  href="https://tiruchirapalli.iiitiansnetwork.com">IIIT Tiruchirapalli</a>
+                            <a class="dropdown-item" target="_blank"  href="https://una.iiitiansnetwork.com">IIIT Una</a>
+                            <a class="dropdown-item" target="_blank"  href="https://vadodara.iiitiansnetwork.com">IIIT Vadodara</a>
+                        </div>
+                    </li>
+			
                     <!-- <li><a href="">Counselling</a></li> -->
-                    <li><a href="https://team.iiitiansnetwork.com">Our Team</a></li>
+                    <li><a href="https://team.iiitiansnetwork.com/">Our Team</a></li>
                     <!-- <li class="drop-down"><a href="">Login</a>
                         <ul>
                             <li><a href="#">Student</a></li>
@@ -133,7 +171,7 @@
                         </ul>
                     </li> -->
                     <!-- <li><a href="https://team.iiitiansnetwork.com">Team</a></li> -->
-                    <li><a href="https://alliiit.iiitiansnetwork.com">All IIIT</a>
+                    <!--<li><a href="https://alliiit.iiitiansnetwork.com">All IIIT</a>
                         <!--           	<ul>
                   <li><a href="#">IIITM Gwalior</a></li>
                   <li><a href="#">IIIT Allahabad</a></li>
@@ -161,7 +199,7 @@
                   <li><a href="#">IIIT Raichur</a></li>
 				</ul>
 -->
-                    </li>
+                    <!--</li> -->
                     <li><a href="https://contact.iiitiansnetwork.com">Contact</a></li>
                 </ul>
             </nav><!-- .nav-menu -->
@@ -737,10 +775,8 @@
                         <ul>
                             <li><i class="bx bx-chevron-right"></i> <a href="https://team.iiitiansnetwork.com">Core Team</a></li>
                             <li><i class="bx bx-chevron-right"></i> <a href="https://team.iiitiansnetwork.com/#web">Web Team</a></li>
-			<li><i class="bx bx-chevron-right"></i> <a  href="http://team.iiitiansnetwork.com/#design">Design  & Animation Team</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a  href="http://team.iiitiansnetwork.com/#content">Content Team</a></li>										   
-                            <!-- <li><i class="bx bx-chevron-right"></i> <a href="https://team.iiitiansnetwork.com/#design">Design Team</a></li> -->
-                            <!-- <li><i class="bx bx-chevron-right"></i> <a href="https://team.iiitiansnetwork.com/#design">Animation Team</a></li> -->
+                            <li><i class="bx bx-chevron-right"></i> <a href="https://team.iiitiansnetwork.com/#design">Design Team</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="https://team.iiitiansnetwork.com/#design">Animation Team</a></li>
                             <!-- <li><i class="bx bx-chevron-right"></i> <a href="https://team.iiitiansnetwork.com">Management</a></li> -->
                         </ul>
                     </div>
